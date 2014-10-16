@@ -164,8 +164,8 @@
     </div>
     <div id="sider" class="fl">
     	<div id="shop">
-        	<div class="schedule"><a class=" csssprite fl schedule" href="http://jwc.ecjtu.jx.cn:8080/jwcmis/classroom/class.jsp" target="_blank"></a></div>
-            <div class="score"><a class=" csssprite fl score" href="http://jwc.ecjtu.jx.cn/mis_o/login.htm" target="_blank"></a></div>
+        	<div class="schedule"><a class=" csssprite fl schedule" href="http://class.ecjtu.net/find.html" target="_blank"></a></div>
+            <div class="score"><a class=" csssprite fl score" href="http://score.ecjtu.net/" target="_blank"></a></div>
             <div class="post"><a class=" csssprite fl post" href="http://post.ecjtu.net/" target="_blank"></a></div>
             <div class="cloud-U-disk"><a class=" csssprite fl cloud-U-disk" href="http://u.ecjtu.net/" target="_blank"></a></div>
         </div>
@@ -175,8 +175,8 @@
             <div class="right_main_bottom fl"></div>
         	<ul class="siderlist">
             	<li>
-                	<a href="http://jwc.ecjtu.jx.cn/mis_o/login.htm" target="_blank">成绩查询</a>
-                    <a href="http://jwc.ecjtu.jx.cn:8080/jwcmis/classroom/class.jsp" target="_blank">课表查询</a>
+                	<a href="http://score.ecjtu.net/" target="_blank">成绩查询</a>
+                    <a href="http://class.ecjtu.net/find.html" target="_blank">课表查询</a>
                     <a class="width65" href="http://jwc.ecjtu.jx.cn:8080/jwcmis/classroom/freeclassroom.jsp" target="_blank">教室查询</a>
                 </li>
                 <li class="out">
