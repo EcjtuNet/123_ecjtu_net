@@ -1,8 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta name="keywords" content="导航,日新导航,华东交大日新导航,日新导航">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maxmun-scale=1,user-scalable=no"/>
+<meta http-equiz="Content-Language" content="zh-CN"/>
+<meta name="keywords" content="导航,日新导航,华东交大日新导航,日新导航">
+<meta name="author" content="XieJuanMin, Venshy"/>
 <title>日新导航|华东交通大学日新网:::打造交大师生网上家园</title>
 <link rel="stylesheet" type="text/css" href="css/123_ecjtu.css" />
 <link rel="shortcut icon" href="image/rixinicon.ico">
@@ -259,7 +262,7 @@
                 <li><a href="http://www.ecjtu.net/html/dangjian/" target="_blank">党建</a></li>
                 <li><a href="http://123.ecjtu.net/" target="_blank" >导航</a></li>
                 <li>
-                    <a href="#" target="_blank">>></a>
+                    <a href="javascript:void(0);">>></a>
                     <ul class="sub-ul">
                         <li><a href="http://www.iqingmei.com/ecjtu" target="_blank">APP</a></li>
                         <li><a href="http://lib.ecjtu.jx.cn/" target="_blank">图书馆</a></li>
@@ -337,6 +340,7 @@
                 <p class="mt11 f13">赣ICP备05003322号&nbsp;日新工作室&nbsp;维护</p>
             </div>
         </div>
+        <p id="copyright_tablet">CopyRight&nbsp;&copy;&nbsp;2001-2014&nbsp;[ecjtu.net].ALL&nbsp;Rights&nbsp;Reserveds</p>
     </div>
 </div>
 <script src="js/jquery-1.9.1.js"></script>

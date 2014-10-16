@@ -107,11 +107,233 @@ body{background:#ffffff;}
 		#friend-link p a{ padding:10px 13px 0 0;}
 		#about-us p a{ padding:10px 5px 0 1.5px;}
 		#about-us p{color:#f5f5f5; font-size:13px; font-family:"宋体"; float:left;}
-		
-		
-		
-			
-			
-				
 
- 
+/*padding by Venshy*/
+#copyright_tablet{
+	display: none;
+}
+
+/*
+ *tablet screen
+ *Venshy
+ */		
+@media (min-width: 768px) and (max-width: 991px) {
+	/*********************header*********************/
+	#fixed-header-wrap, #header-wrap, #footer-wrap{
+		width: 768px;
+	}
+		#nav li{
+			padding-right: 11.5px;
+		}
+		#fixed-search{
+			display: none;
+		}
+
+		#header_font{
+			margin-left: 0px;
+			float: right;
+			margin-right: 82px;
+		}
+	/*********************header*********************/
+
+
+	/**********************main**********************/
+	#main{
+		width: 768px;
+		position: relative;
+	}
+		#contenter{
+			margin-top: 437px;
+			margin-left: 104px;
+		}
+			#contenter form{
+				position: absolute;
+				top: 0;
+				left: 35px;
+				z-index: 100;
+			}
+				#search{
+					width: 435px;
+				}
+					#search_form{
+						margin-left: 0;
+						width: 100%;
+					}
+					#search_box{
+						width: 80%;
+					}
+						#search_text{
+							width: 304px;
+						}
+
+		#sider{
+			float: none;
+			margin-left: 104px;
+			width: 559px;
+			position: absolute;
+			top: 0px;
+		}
+			#shop{
+				position: relative;
+				left: 387px;
+				overflow: hidden;
+				clear: both;
+			}
+			#info-search, #serve, #icon, #enjoy{
+				margin-top: 40px;
+				float: left;
+			}
+			#serve, #enjoy{
+				float: right;
+			}
+	/**********************main**********************/
+
+
+	/*********************footer*********************/
+	#footer{
+
+	}
+		#friend-link{
+			margin-left: 60px;
+		}
+		#footer_logo{
+			display: none;
+		}
+		.mt24{
+			margin-top: 11px;
+		}
+		#copyright_tablet{
+			padding-top: 60px;
+			font-size: 12px;
+			color: #666;
+			display:  block;
+			clear: both;
+		}
+	/*********************footer*********************/
+}	
+/*
+ *mobile screen
+ *Venshy
+ */	
+@media (max-width: 767px) {
+	/*********************header*********************/
+	#fixed-header-wrap, #header-wrap, #footer-wrap{
+		width: 100%;
+	}
+		#nav{
+			display: none;
+		}
+		#fixed-search{
+			display: none;
+		}
+		#fixed-header-logo{
+			margin-top: 5px;
+			margin-left: 20px;
+		}
+	
+	#header{
+		height: 130px;
+	}
+		#header-logo-a{
+			margin: 16px auto 0;
+			float: none;
+			display: block;
+		}
+		#header_font{
+			margin: 0 10px;
+			float: right;
+			
+		}
+	/*********************header*********************/
+	#main{
+		width: 100%;
+	}
+		#contenter{
+			padding-bottom: 20px;
+		}
+			#contenter form{
+				width: 250px;
+				margin: 0 auto;
+			}
+				#search{
+					width: 250px;
+				}
+					#search_form{
+						margin-left: 0;
+						font-size: 14px;
+						width: 100%;
+					}
+						.search_font{
+							width: 60px;
+						}
+					#search_box{
+						width: 173px;
+					}
+						#search_text{
+							width: 129px;
+							font-size: 12px;
+						}
+			#contenter > div{
+				/*margin: 0 auto;
+				width: 250px;*/
+				display: none;
+			}
+			/*	.mainlist{
+					padding-left: 0px;
+				}
+					.mainlist li{
+						width: 100%;
+					}*/
+				.col_main_bottom{
+					width: 167px;
+				}
+		#contenter, #sider{
+			float: none;
+			width: 80%;
+			margin: 0 auto;
+		}
+			#shop{
+				width: 250px;
+				position: relative;
+				top: -15px;
+			}
+				#shop a{
+					margin-right: 10px;
+				}
+			#sider > div{
+				margin: 0 auto;
+				padding: 10px 0;
+				/*border-bottom: 2px solid rgba(200,200,200,0.3);*/
+			}
+				.siderlist li a{
+					font-size: 14px;
+				}
+
+
+	/*********************footer*********************/
+	#footer{
+		height: auto;
+		overflow: hidden;
+		padding-bottom: 10px;
+	}
+		#friend-link, #about-us{
+			margin: 0 auto;
+			float: none;
+			overflow: hidden;
+			width: 90%;
+		}
+		#footer_logo{
+			display: none;
+		}
+		.mt24{
+			margin-top: 11px;
+		}
+		#copyright_tablet{
+			padding-top: 30px;
+			font-size: 12px;
+			color: #666;
+			display:  block;
+			clear: both;
+		}
+	/*********************footer*********************/
+}
